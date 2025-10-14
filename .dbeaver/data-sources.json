@@ -38,7 +38,6 @@
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
 			"name": "PostgreSQL_SSH_password",
-			"save-password": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "5432",
