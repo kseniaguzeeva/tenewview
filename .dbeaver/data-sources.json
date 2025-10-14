@@ -97,7 +97,7 @@
 					"postgre_ssl": {
 						"type": "CONFIG",
 						"enabled": true,
-						"save-password": true
+						"save-password": false
 					}
 				},
 				"bootstrap": {
