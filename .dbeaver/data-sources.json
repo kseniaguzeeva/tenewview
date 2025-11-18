@@ -5,6 +5,7 @@
 			"provider": "mysql-ee",
 			"driver": "mariaDB",
 			"name": "MariaDB@localhost",
+			"save-password": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "3306",
@@ -12,10 +13,27 @@
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true,
+				"properties": {
+					"123": "345"
+				},
 				"provider-properties": {
-					"@dbeaver-show-all-dbs@": "false"
+					"@dbeaver-show-all-dbs@": "true"
 				},
 				"auth-model": "native",
+				"handlers": {
+					"ssh_tunnel": {
+						"type": "TUNNEL",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"host": "db1.dev.dbeaver.infra",
+							"port": 22.0,
+							"authType": "PUBLIC_KEY",
+							"aliveInterval": "0",
+							"sshConnectTimeout": "10000"
+						}
+					}
+				},
 				"bootstrap": {
 					"autocommit": true
 				}
