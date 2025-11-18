@@ -1,107 +1,21 @@
 {
 	"folders": {},
 	"connections": {
-		"postgres-jdbc-199e2e11373-3ccc782aece27fe8": {
-			"provider": "postgresql",
-			"driver": "postgres-jdbc",
-			"name": "PostgreSQL_SSH_key",
-			"save-password": true,
+		"mariaDB-19a6cfe0099-7ce858516b29d89d": {
+			"provider": "mysql-ee",
+			"driver": "mariaDB",
+			"name": "MariaDB@localhost",
 			"configuration": {
 				"host": "localhost",
-				"port": "5432",
-				"database": "postgres",
-				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"port": "3306",
+				"url": "jdbc:mariadb://localhost:3306/",
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true,
-				"auth-model": "native",
-				"handlers": {
-					"ssh_tunnel": {
-						"type": "TUNNEL",
-						"enabled": true,
-						"save-password": true,
-						"properties": {
-							"host": "db1.dev.dbeaver.infra",
-							"port": 22.0,
-							"authType": "PUBLIC_KEY",
-							"aliveInterval": "0",
-							"sshConnectTimeout": "10000"
-						}
-					}
+				"provider-properties": {
+					"@dbeaver-show-all-dbs@": "false"
 				},
-				"bootstrap": {
-					"autocommit": true
-				}
-			}
-		},
-		"postgres-jdbc-199e2e26fdd-498a700e89c58da0": {
-			"provider": "postgresql",
-			"driver": "postgres-jdbc",
-			"name": "PostgreSQL_SSH_password",
-			"configuration": {
-				"host": "localhost",
-				"port": "5432",
-				"database": "postgres",
-				"url": "jdbc:postgresql://localhost:5432/postgres",
-				"configurationType": "MANUAL",
-				"type": "dev",
-				"closeIdleConnection": true,
 				"auth-model": "native",
-				"handlers": {
-					"ssh_tunnel": {
-						"type": "TUNNEL",
-						"enabled": true,
-						"save-password": true,
-						"properties": {
-							"host": "db2.dev.dbeaver.infra",
-							"port": 22.0,
-							"authType": "PASSWORD",
-							"aliveInterval": "0",
-							"sshConnectTimeout": "10000"
-						}
-					}
-				},
-				"bootstrap": {
-					"autocommit": true
-				}
-			}
-		},
-		"postgres-jdbc-199e2e66205-32871360ecbb5af": {
-			"provider": "postgresql",
-			"driver": "postgres-jdbc",
-			"name": "PostgreSQL_SSL",
-			"save-password": true,
-			"configuration": {
-				"host": "localhost",
-				"port": "5435",
-				"database": "postgres",
-				"url": "jdbc:postgresql://localhost:5435/postgres",
-				"configurationType": "MANUAL",
-				"type": "dev",
-				"closeIdleConnection": true,
-				"auth-model": "native",
-				"handlers": {
-					"ssh_tunnel": {
-						"type": "TUNNEL",
-						"enabled": true,
-						"save-password": true,
-						"properties": {
-							"host": "db4.dev.dbeaver.infra",
-							"port": 22.0,
-							"authType": "PUBLIC_KEY",
-							"aliveInterval": "0",
-							"sshConnectTimeout": "10000"
-						}
-					},
-					"postgre_ssl": {
-						"type": "CONFIG",
-						"enabled": true,
-						"save-password": true,
-						"properties": {
-							"authType": "PASSWORD"
-						}
-					}
-				},
 				"bootstrap": {
 					"autocommit": true
 				}
