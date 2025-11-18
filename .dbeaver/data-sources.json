@@ -1,5 +1,7 @@
 {
-	"folders": {},
+	"folders": {
+		"New folder": {}
+	},
 	"connections": {
 		"mariaDB-19a6cfe0099-7ce858516b29d89d": {
 			"provider": "mysql-ee",
