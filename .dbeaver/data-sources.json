@@ -40,6 +40,40 @@
 					"autocommit": true
 				}
 			}
+		},
+		"postgres-jdbc-19a9750ae48-12afa428385c0c3f": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "PostgreSQL@localhost",
+			"description": "r",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-chosen-role@": "r"
+				},
+				"auth-model": "native",
+				"handlers": {
+					"postgre_ssl": {
+						"type": "CONFIG",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"sslMode": "allow",
+							"sslFactory": "rrr"
+						}
+					}
+				},
+				"bootstrap": {
+					"autocommit": true
+				}
+			}
 		}
 	},
 	"connection-types": {
