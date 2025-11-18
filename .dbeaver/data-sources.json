@@ -75,6 +75,30 @@
 					"autocommit": true
 				}
 			}
+		},
+		"dynamodb-19a9751f3f4-df382780e342c24": {
+			"provider": "dynamodb",
+			"driver": "dynamodb",
+			"origin": {
+				"$type": "cloud",
+				"cloud-provider": "aws",
+				"cloud-id": "AWS",
+				"cloud-zone-id": "eu-central-1",
+				"aws-resource": "dynamodb.eu-central-1.amazonaws.com"
+			},
+			"name": "DynamoDB@eu-central-1",
+			"save-password": true,
+			"configuration": {
+				"host": "dynamodb.eu-central-1.amazonaws.com",
+				"database": "dynamodb.eu-central-1.amazonaws.com",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"regionName": "eu-central-1"
+				},
+				"auth-model": "iam_simple"
+			}
 		}
 	},
 	"connection-types": {
