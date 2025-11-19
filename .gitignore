@@ -4,5 +4,6 @@
 .dbeaver/data-sources*
 *.sql
 *.bm
+*.erd
 .dbeaver/.configuration
 *.bak
