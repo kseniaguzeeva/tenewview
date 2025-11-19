@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?><dataset draft="false"><queries><query id="82440d96-4e82-49ec-89b2-2a7bca5f7b49" data-source="mariaDB-19a6cfe0099-7ce858516b29d89d"><text><![CDATA[select * from sakila_edited.`language`
+LIMIT 0, 100]]></text></query></queries></dataset>
