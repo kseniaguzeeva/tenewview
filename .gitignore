@@ -3,9 +3,6 @@
 .dbeaver/project-settings.json
 .dbeaver/data-sources*
 .dbeaver/credentials-config*
-*.sql
-*.erd
 *.bm
-*.ds
 .dbeaver/.configuration
 *.bak
