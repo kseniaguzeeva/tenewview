@@ -2,5 +2,6 @@
 .dbeaver/project-metadata.json
 .dbeaver/project-settings.json
 .dbeaver/data-sources*
+.dbeaver/credentials-config*
 .dbeaver/.configuration
 *.bak
