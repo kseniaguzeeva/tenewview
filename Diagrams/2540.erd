@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="2540">
+	<entities>
+		<data-source id="postgres-jdbc-19aedb7317a-22ccacb9603fee1b">
+			<entity id="1" name="1awsIMPSCHEDULED" fq-name="public.&quot;1awsIMPSCHEDULED&quot;">
+				<path name="public"/>
+				<path name="postgres"/>
+			</entity>
+			<entity id="2" name="1awsto" fq-name="public.&quot;1awsto&quot;">
+				<path name="public"/>
+				<path name="postgres"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations/>
+</diagram>
