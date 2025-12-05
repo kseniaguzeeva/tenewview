@@ -46,6 +46,8 @@
 			"driver": "postgres-jdbc",
 			"name": "PostgreSQL@localhost",
 			"description": "r",
+			"save-password": true,
+			"shared-credentials": true,
 			"folder": "New folder",
 			"configuration": {
 				"host": "localhost",
