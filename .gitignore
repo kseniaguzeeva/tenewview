@@ -6,5 +6,6 @@
 *.ds
 *.bm
 .dbeaver/credentials-config*
+.dbeaver/data-sources*
 .dbeaver/.configuration
 *.bak
