@@ -143,7 +143,7 @@
 		"postgres-jdbc-19aedb7317a-22ccacb9603fee1b": {
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
-			"name": "postgres",
+			"name": "2530",
 			"save-password": true,
 			"configuration": {
 				"host": "localhost",
