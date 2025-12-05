@@ -69,6 +69,18 @@
 							"sslMode": "allow",
 							"sslFactory": "rrr"
 						}
+					},
+					"ssh_tunnel": {
+						"type": "TUNNEL",
+						"enabled": true,
+						"save-password": false,
+						"properties": {
+							"host": "db1.dev.dbeaver.infra",
+							"port": 22.0,
+							"authType": "PUBLIC_KEY",
+							"aliveInterval": "0",
+							"sshConnectTimeout": "10000"
+						}
 					}
 				},
 				"bootstrap": {
