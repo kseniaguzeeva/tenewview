@@ -2,5 +2,7 @@
 *.sql
 .dbeaver/project-settings.json
 .dbeaver/project-metadata.json
+*.erd
+*.ds
 .dbeaver/.configuration
 *.bak
