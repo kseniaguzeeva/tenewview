@@ -64,7 +64,7 @@
 					"ssh_tunnel": {
 						"type": "TUNNEL",
 						"enabled": true,
-						"save-password": false,
+						"save-password": true,
 						"properties": {
 							"host": "db1.dev.dbeaver.infra",
 							"port": 22.0,
