@@ -57,19 +57,10 @@
 				"type": "dev",
 				"closeIdleConnection": true,
 				"provider-properties": {
-					"@dbeaver-chosen-role@": "r"
+					"@dbeaver-chosen-role@": ""
 				},
 				"auth-model": "native",
 				"handlers": {
-					"postgre_ssl": {
-						"type": "CONFIG",
-						"enabled": true,
-						"save-password": false,
-						"properties": {
-							"sslMode": "allow",
-							"sslFactory": "rrr"
-						}
-					},
 					"ssh_tunnel": {
 						"type": "TUNNEL",
 						"enabled": true,
