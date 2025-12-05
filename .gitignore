@@ -1,4 +1,5 @@
 .dbeaver/task-stats
 *.sql
+.dbeaver/project-settings.json
 .dbeaver/.configuration
 *.bak
